@@ -1,7 +1,7 @@
 import threading
 import os
 import socket
-from prettytable import PrettyTable # pip install prettytable 로 설치 후 사용 가능
+from prettytable import PrettyTable # pip install PrettyTable 로 설치 후 사용 가능
 from time import sleep
 
 port = 2500
