@@ -287,7 +287,7 @@ if __name__ == '__main__':
     # 채팅 송신을 위한 스레드 생성
     s_t = threading.Thread(target=send_msg, args=())
     # 프로그램 종료 시 스레드도 종료되도록 설정
-    s_t.demon = True
+    s_t.daemon = True
     # 송신 스레드 실행
     s_t.start()
 
