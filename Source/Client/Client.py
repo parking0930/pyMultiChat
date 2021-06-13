@@ -33,7 +33,7 @@ def receive_msg():
             break
         # 채팅방 입장 전인 경우
         if mode==1:
-            # 수신한 메시지가 refresh이면(방 새로고침 시작 매사지)
+            # 수신한 메시지가 refresh이면(방 새로고침 시작 메시지)
             if r_msg.decode()=="refresh":
                 # 전역 변수 roomList 사용
                 global roomList
